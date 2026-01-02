@@ -39,12 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'accounts',
     'employees',
+    'attendance',
     'leaves',
     'payroll',
 ]
-
-AUTH_USER_MODEL = 'accounts.User'
-
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
